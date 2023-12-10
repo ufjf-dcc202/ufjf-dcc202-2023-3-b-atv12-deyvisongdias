@@ -48,6 +48,6 @@ function atualizaTela() {
     document.entrada.quantidade.value = 1;
     document.entrada.fruta.value = "maca";
 
-    preencheLista(olJoao, estoque.joao);
     preencheLista(olMaria, estoque.maria);
+    preencheLista(olJoao, estoque.joao);
 }

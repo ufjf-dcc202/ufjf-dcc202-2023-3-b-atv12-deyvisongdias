@@ -43,7 +43,6 @@ function transacaoNoEstoque(origem, destino, tipo, quantidade) {
 
     if (origem === "pomar") {
         const itemEncontrado = estoque[destino].find(item => item.tipo === tipo);
-
         if (itemEncontrado) {
             itemEncontrado.quantidade += quantidade;
         } else {
